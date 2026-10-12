@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "ELI SI Movies Creator",
+      "hasCanvas": true,
+      "bodyTextLen": 522,
+      "bodyTextHash": "59b838fc3da2f3c794a612596a49dca0f00fb305b68368efea7c1b8673332b46",
+      "bodyTextPrefix": "ELI SI Movies Creator 3D characters, cinematic light, recorded i",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "ELI SI Movies Creator",
+      "hasCanvas": true,
+      "bodyTextLen": 528,
+      "bodyTextHash": "e465d873f0b3dabcf223274010a43e983a9e6c774863fee04ec77355573fecc9",
+      "bodyTextPrefix": "ELI SI Movies Creator 3D characters, cinematic light, recorded i",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

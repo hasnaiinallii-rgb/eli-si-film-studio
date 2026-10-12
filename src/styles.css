@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #07080c;
+  --color-surface: #12141a;
+  --color-fg: #e8e6e1;
+  --color-muted: #9a968e;
+  --color-lime: #c6f54e;
+  --color-line: #ffffff1a;
+  --font-sans: "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: Georgia, "Iowan Old Style", serif;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html,
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+}
